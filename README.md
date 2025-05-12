@@ -57,10 +57,10 @@ Follow these steps to set up and run the RANI project locally:
 - npm install
 ## 4️⃣ Configure Environment Variables
 - Create a .env file inside the /server directory with the following fields:
-MONGO_URI=your_mongo_connection_string
-EMAIL_USER=your_email@example.com
-EMAIL_PASS=your_email_password
-JWT_SECRET=your_jwt_secret
+- MONGO_URI=your_mongo_connection_string
+- EMAIL_USER=your_email@example.com
+- EMAIL_PASS=your_email_password
+- JWT_SECRET=your_jwt_secret
 ## 5️⃣Start the Backend Server
 - cd server
 - npm start 
