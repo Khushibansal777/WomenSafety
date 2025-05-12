@@ -29,8 +29,11 @@ RANI provides a robust platform for women to **send distress signals**, **report
 - **📡 Real-Time Alerts with Pincode Matching**
   - Notifications are dynamically sent to nearby users (within the same PIN code area) for crowd-sourced safety awareness.
 
-- **📬 Email Integration**
-  - Email notifications with embedded maps are sent to registered emergency contacts when a distress signal is activated.
+- **📰 Blog Section**
+  -  Informative articles and resources on women’s safety, legal rights, and self-defense tips..
+    
+- **🏢 NGO Contacts**
+  - List of verified NGOs users can contact for help, counseling, and rescue.
 
 ---
 
