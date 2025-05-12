@@ -1,0 +1,79 @@
+.footer_wrapper {
+  padding-top: 100px;
+  padding-bottom: 25px;
+  background-size: cover;
+  background-image: url(../images/footer.png);
+  background-color: #ffe4ec; /* Pale Pink background */
+  color: #000000; /* Jet Black text for readability */
+}
+
+/* Footer Logo */
+.footer_wrapper .footer_logo img {
+  max-width: 30%;
+}
+
+/* Footer Text and Links */
+.footer_wrapper .footer_text,
+.footer_wrapper .footer_text a {
+  margin-top: 30px;
+  color: #6e6e6e; /* Soft grey for less dominant text */
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer_wrapper .footer_text a:hover {
+  color: #d81b60; /* Hot Pink on hover */
+}
+
+/* Section Titles in Footer */
+.footer_wrapper .footer_title {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #ec407a; /* Deep Pink for prominence */
+  margin-bottom: 25px;
+}
+
+/* Social Media Icons */
+.footer_wrapper .footer_social_media_icon {
+  padding-right: 30px;
+  font-size: 20px;
+  color: #ff4081; /* Purple Pink for icons */
+  transition: color 0.3s ease;
+}
+
+.footer_wrapper .footer_social_media_icon:hover {
+  color: #d81b60; /* Hot Pink on hover */
+}
+
+/* Footer Credits */
+.footer_wrapper .footer_credits {
+  color: #6e6e6e;
+  border-top: 1px solid #f8bbd0; /* Blush Pink border */
+  padding-top: 20px;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.footer_wrapper .footer_credits a {
+  color: #d81b60; /* Hot Pink links */
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.footer_wrapper .footer_credits a:hover {
+  color: #ec407a; /* Deep Pink on hover */
+}
+
+/* Responsive Footer Logo */
+@media (max-width: 767px) {
+  .footer_wrapper .footer_logo img {
+    max-width: 50%;
+  }
+}

@@ -1,0 +1,12 @@
+# Root-level ignores
+.DS_Store
+# env file
+server/.env
+WomenSafetyWebApp-main/.env
+# Node modules
+server/node_modules/
+WomenSafetyWebApp-main/node_modules/
+
+# Build folders
+WomenSafetyWebApp-main/build/
+server/dist/

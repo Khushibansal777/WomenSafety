@@ -1,0 +1,53 @@
+.box-area {
+  width: 930px;
+  background-color: #ffe4ec; /* Pale Pink - gentle background */
+  border-radius: 30px; /* Harmonizes with rounded-5 */
+  box-shadow: 0 6px 20px rgba(248, 187, 208, 0.5); /* Blush Pink shadow */
+}
+
+.right-box {
+  padding: 40px 30px 40px 40px;
+  background-color: #ffffff; /* Soft White */
+  border-radius: 20px; /* Consistent with rounded-4 */
+  box-shadow: 0 4px 12px rgba(248, 187, 208, 0.3);
+}
+
+::placeholder {
+  font-size: 16px;
+  color: #d81b60; /* Hot Pink - aligns with action prompts */
+}
+
+.rounded-4 {
+  border-radius: 20px;
+}
+
+.rounded-5 {
+  border-radius: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .box-area {
+    margin: 0 10px;
+    width: auto;
+  }
+
+  .reverseCol {
+    flex-direction: column-reverse;
+  }
+
+  .right-box {
+    padding: 20px;
+  }
+}
+
+/* Updated Gradient Background for reverseCol using your palette */
+.reverseCol {
+  background-image: radial-gradient(
+    circle,
+    #ffe4ec,
+    #ffb6d5,
+    #ff99c2,
+    #ff79aa,
+    #ec407a
+  ); /* From pale pink to deep pink */
+}

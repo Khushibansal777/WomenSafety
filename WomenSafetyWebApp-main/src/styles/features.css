@@ -1,0 +1,82 @@
+.features_wrapper {
+  padding: 100px 0 80px;
+  background-color: #ffffff; /* Soft White */
+}
+
+/* Subtitle Styling */
+.features_wrapper .features_subtitle {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 5px;
+  color: #d81b60; /* Hot Pink */
+}
+
+/* Main Title Styling */
+.features_wrapper .features_title {
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 1.25;
+  margin-bottom: 25px;
+  color: #000000; /* Jet Black */
+}
+
+/* Feature Card Headings */
+.features_wrapper h3 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #000000; /* Jet Black */
+}
+
+/* Text Below Each Feature */
+.features_wrapper .features_text {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #6e6e6e; /* Friendly Grey */
+}
+
+/* Feature Cards - 3 styles, with hover effect */
+.features_wrapper .ft-1,
+.features_wrapper .ft-2,
+.features_wrapper .ft-3 {
+  background: #ffe4ec; /* Pale Pink */
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(248, 187, 208, 0.3); /* Blush Pink */
+  transition: all 0.3s ease;
+}
+
+.features_wrapper .ft-1:hover,
+.features_wrapper .ft-2:hover,
+.features_wrapper .ft-3:hover {
+  background: #ff99c2; /* Light Pink on hover */
+  transform: translateY(-6px);
+  box-shadow: 0 6px 20px rgba(248, 187, 208, 0.6);
+}
+
+/* Image Responsiveness */
+@media (max-width: 1201px) {
+  .img-fixed {
+    width: 60px;
+  }
+}
+
+/* Floating Image Animation */
+.header-img-section img {
+  animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}

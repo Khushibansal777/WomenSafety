@@ -1,0 +1,56 @@
+.more-info-section {
+  background-image: linear-gradient(
+      rgba(216, 27, 96, 0.7),  /* Hot Pink Overlay */
+      rgba(123, 31, 162, 0.6)  /* Soft Violet */
+    ),
+    url(../images/parallelxbg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 6rem 0;
+  overflow: hidden;
+  color: #fff; /* Ensures text contrasts well */
+}
+
+.more-info-section .img-section {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.more-info-section img {
+  position: absolute;
+  top: -10%;
+  left: 0;
+  max-width: 100%;
+  width: 65%;
+  transition: transform 0.4s ease-in-out;
+}
+
+/* Tablet Screens */
+@media screen and (max-width: 1200px) {
+  .more-info-section img {
+    position: absolute;
+    top: 0;
+    left: 55%;
+    width: 45%;
+    transform: scale(1);
+  }
+
+  .para-width {
+    width: 90%;
+  }
+}
+
+/* Mobile Screens */
+@media screen and (max-width: 768px) {
+  .more-info-section img {
+    display: none;
+  }
+
+  .more-info-section {
+    padding: 4rem 1rem;
+  }
+}

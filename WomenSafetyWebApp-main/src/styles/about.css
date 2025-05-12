@@ -1,0 +1,129 @@
+.about_wrapper {
+  padding: 100px 0 0;
+  background-image: url(../images/footer.png);
+  background-color: #ffffff; /* Soft White Background */
+}
+
+/* About Number Badge */
+.about_wrapper .about_number {
+  font-weight: 800;
+  font-size: 24px;
+  padding: 4px 17px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  max-width: 44px;
+  color: white;
+  background-color: #ff4081; /* Purple Pink */
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(248, 187, 208, 0.3); /* Blush Pink shadow */
+}
+
+.about_wrapper .about_number:hover {
+  background-color: #f8bbd0; /* Blush Pink on hover */
+  color: #000000; /* Jet Black text on hover */
+  box-shadow: 0 6px 15px rgba(248, 187, 208, 0.6);
+  transform: translateY(-2px);
+}
+
+/* About Title */
+.about_wrapper .about_title {
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 1.25;
+  max-width: 1000px;
+  margin-bottom: 25px;
+  color: #000000; /* Jet Black */
+}
+
+/* About Paragraph */
+.about_wrapper .about_text {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.7;
+  max-width: 700px;
+  color: #6e6e6e; /* Soft grey */
+}
+
+/* Innovate Section */
+.about_wrapper .innovate {
+  padding: 80px 0;
+}
+
+/* Projects Section */
+.about_wrapper .projects {
+  padding: 30px 0;
+}
+
+.about_wrapper .projects h2 {
+  color: #ff99c2; /* Light Pink */
+  font-family: Poppins;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.about_wrapper .projects p {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #6e6e6e;
+}
+
+/* Responsive Design */
+@media (max-width: 1070px) {
+  .about_wrapper .about_title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 991px) {
+  .about_wrapper .about_number {
+    margin: 20px auto;
+  }
+  .about_wrapper .about_title {
+    font-size: 24px;
+  }
+}
+
+/* --- Optional: Button Styles for CTA & Secondary Actions --- */
+
+/* Emergency / CTA Buttons */
+.button-primary, .cta-button {
+  background-color: #ec407a; /* Deep Pink */
+  color: #ffffff;
+  font-weight: 700;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(248, 187, 208, 0.3);
+}
+
+.button-primary:hover, .cta-button:hover {
+  background-color: #f8bbd0; /* Blush Pink */
+  color: #d81b60; /* Hot Pink */
+  box-shadow: 0 6px 15px rgba(248, 187, 208, 0.6);
+  transform: translateY(-2px);
+}
+
+/* Secondary Button Text */
+.button-secondary {
+  background-color: transparent;
+  color: #d81b60; /* Hot Pink */
+  font-weight: 600;
+  border: 2px solid #d81b60;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button-secondary:hover {
+  background-color: #f8bbd0;
+  color: #000000;
+  border-color: #f8bbd0;
+  box-shadow: 0 6px 15px rgba(248, 187, 208, 0.5);
+  transform: translateY(-2px);
+}
