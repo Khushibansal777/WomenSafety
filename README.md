@@ -43,6 +43,51 @@ RANI provides a robust platform for women to **send distress signals**, **report
 - **Authentication**: JWT-based login system for both users and admins
 
 ---
+## 🚀 Getting Started
+Follow these steps to set up and run the RANI project locally:
+
+## 1️⃣ Clone the Repository
+- git clone https://github.com/Khushibansal777/Women-Safety-.git
+- cd WomenSafetyWebApp-main
+## 2️⃣ Install Backend Dependencies
+- cd server
+- npm install
+## 3️⃣ Install Frontend Dependencies
+- cd ../WomenSafetyWebApp-main
+- npm install
+## 4️⃣ Configure Environment Variables
+- Create a .env file inside the /server directory with the following fields:
+MONGO_URI=your_mongo_connection_string
+EMAIL_USER=your_email@example.com
+EMAIL_PASS=your_email_password
+JWT_SECRET=your_jwt_secret
+## 5️⃣Start the Backend Server
+- cd server
+- npm start 
+## 6️⃣ Start the Frontend
+- cd ../WomenSafetyWebApp-main
+- npm start
+## 7️⃣ Access the Application
+Visit:
+-http://localhost:3000
+
+## 🧪 Usage
+### 👤 Users:
+
+Register/login to access features
+
+Trigger emergency alerts via SOS
+
+Report incidents with details and media
+
+###  Admins:
+
+Access the /admin route
+
+View/manage user alerts and incident reports
+
+Monitor real-time reports and stored media
+
 
 
 
