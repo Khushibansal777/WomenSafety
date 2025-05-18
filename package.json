@@ -1,0 +1,13 @@
+{
+  "name": "womensafetywebapp-main",
+  "version": "1.0.0",
+  "description": "### 🏆 3rd Place Winner at HMRITM Tech Fest Project Exhibition Challenge",
+  "main": "index.js",
+  "scripts": {
+    "build":"npm install --prefix server && npm install --prefix WomenSafetyWebApp-main && npm run build --prefix WomenSafetyWebApp-main",
+    "start":"npm run start --prefix server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
