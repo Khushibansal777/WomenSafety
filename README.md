@@ -127,3 +127,6 @@ Open your browser and visit:
 * Log in to manage user alerts and reports.
 * Monitor real-time incidents and review submitted data/media.
 
+### Screenshot
+
+![Home Page Screenshot](screenshots/home.png)
