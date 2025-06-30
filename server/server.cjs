@@ -28,9 +28,13 @@ if (process.env.NODE_ENV === "production") {
 }
 
 // Routes
+console.log("Registering userRoutes...");
 app.use("/api/v1/users", userRoutes);
+console.log("Registering incidentRoutes...");
 app.use("/api/v1", incidentRoutes); // ✅ Match your frontend axios.get call
+console.log("Registering emergencyRoutes...");
 app.use("/api/v1/emergency", emergencyRoutes);
+console.log("Registering chatRoutes...");
 app.use("/api/v1/chats", chatRoutes);
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));

@@ -4,7 +4,7 @@ const {addChats,getChats} = require('../controllers/chatController')
 const validateToken = require('../middlewares/validateToken');
 
 router.route('/').post(addChats);
-router.route('/:id/emergncye/:emerg').get(getChats);
+router.route('/:id/emergency/:emerg').get(getChats);
 
 
 
